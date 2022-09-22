@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hajk</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_navigation">Navigation</string>
+    <string name="title_utilities">Utilities</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_item">Delete the entry?</string>
+    <string name="alarm">Alarm</string>
+    <string name="torch">Torch</string>
+    <string name="add_note">Adds a note</string>
+    <string name="location_na">Location not available</string>
+    <string name="input_hint">Type here…</string>
+    <string name="get_coords">Get location coordinates</string>
+</resources>

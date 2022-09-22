@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notes.NotesFragment">
+
+    <TextView
+        android:id="@+id/coordView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:shadowColor="#767676"
+        android:shadowRadius="0"
+        android:text="@string/location_na"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/compassBack"
+        app:layout_constraintEnd_toEndOf="@+id/compassBack"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/compassBack" />
+
+    <ImageView
+        android:id="@+id/compassBack"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:src="@drawable/ic_compass_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/compassNeedle"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/ic_needle"
+        app:layout_constraintBottom_toBottomOf="@+id/compassBack"
+        app:layout_constraintEnd_toEndOf="@+id/compassBack"
+        app:layout_constraintStart_toStartOf="@+id/compassBack"
+        app:layout_constraintTop_toTopOf="@+id/compassBack"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/spiritX"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_anglex"
+        app:layout_constraintEnd_toEndOf="@+id/compassBack"
+        app:layout_constraintStart_toStartOf="@+id/compassBack"
+        app:layout_constraintTop_toBottomOf="@+id/compassBack"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/spiritY"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_angley"
+        app:layout_constraintBottom_toBottomOf="@+id/compassBack"
+        app:layout_constraintEnd_toStartOf="@+id/compassBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/compassBack"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/bubbleX"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_drop"
+        app:layout_constraintBottom_toBottomOf="@+id/spiritX"
+        app:layout_constraintEnd_toEndOf="@+id/spiritX"
+        app:layout_constraintStart_toStartOf="@+id/spiritX"
+        app:layout_constraintTop_toTopOf="@+id/spiritX"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/bubbleY"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_drop"
+        app:layout_constraintBottom_toBottomOf="@+id/spiritY"
+        app:layout_constraintEnd_toEndOf="@+id/spiritY"
+        app:layout_constraintStart_toStartOf="@+id/spiritY"
+        app:layout_constraintTop_toTopOf="@+id/spiritY"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/coordButton"
+        style="@style/Theme.Hajk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_mylocation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:contentDescription="@string/get_coords"
+        android:focusable="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

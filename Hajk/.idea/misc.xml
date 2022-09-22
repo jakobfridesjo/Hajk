@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/myrect.xml" value="0.1685185185185185" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_note.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/layout/fragment_inventory.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/fragment_list.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/layout/fragment_navigation.xml" value="0.35492957746478876" />
+        <entry key="app/src/main/res/layout/fragment_note.xml" value="0.1839557399723375" />
+        <entry key="app/src/main/res/layout/fragment_note_delete.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_notes.xml" value="0.10925925925925926" />
+        <entry key="app/src/main/res/layout/fragment_utilities.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/layout/listview_item.xml" value="0.14463019250253292" />
+        <entry key="app/src/main/res/layout/popup_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/shadow_view.xml" value="0.24270833333333333" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
